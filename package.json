@@ -1,0 +1,21 @@
+{
+  "name": "nuscript",
+  "version": "0.0.1",
+  "description": "Like TypeScript but easier. Be free to code the way you want.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.24.7",
+    "@babel/parser": "^7.24.7",
+    "js-tokens": "^9.0.0",
+    "minimist": "^1.2.8"
+  }
+}
